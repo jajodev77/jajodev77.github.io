@@ -1,0 +1,410 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:rgba(227,227,240,1.00);
+	text-align:center;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: top;
+	
+}
+
+
+
+
+
+
+#barra{
+	width:100%;
+	height:auto;
+	min-height: 45px;
+	/*background-color:rgba(46,29,155,1.00);*/
+	background-color:rgba(48,42,82,1.00);
+	text-align:center;
+	border:0px;
+	margin:0px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:0px;
+	padding-right:0px;
+	color:  white;
+	/*border-bottom: 5px solid rgba(114,114,114,0.3);
+	border-top: 5px solid rgba(114,114,114,0.3);*/
+	box-shadow: 0px 0px 1px 1px rgba(114,114,114,1);
+	position: fixed;
+	
+	
+}
+#container
+{
+	margin:auto;
+	padding-top: 60px;
+	
+}
+#barra h1
+{
+	margin-top:2px;
+	margin-bottom: 2px;
+}
+
+.intro
+	{
+		background-color:white;
+		box-shadow: 0px 0px 3px 1px rgba(114,114,114,0.3);
+	}
+
+.calculadora, .calculadoraTEMAS
+	{
+		background-color:white;
+		box-shadow: 0px 0px 2px 1px rgba(114,114,114,0.3);
+	}
+.calculadoraContent
+{
+	padding: 20px;
+	margin-top:20px;
+}
+
+.descrip
+{
+	color: rgba(46,29,155,1.00);
+	text-align: left;
+	padding: 10px;
+}
+.descripBlack
+{
+	color: black;
+	text-align: left;
+	padding: 10px;
+}
+
+.descrip a:visited, .descrip a:hover, .descrip a:active, .descrip a:link
+{
+  text-decoration: none; 
+	color: rgba(46,29,155,1.00);
+}
+.introContent
+{
+	
+	
+	height: auto;	
+	margin: auto;
+	border: none; 
+	background-color: transparent;
+}
+.introContent p
+{
+	text-align: justify;
+}
+.introContent h1, .introContent h2, .introContent h3
+{
+	text-align: center;
+	color: rgba(46,29,155,1.00);
+}
+.coppy
+{color: rgba(46,29,155,1.00);}
+.intro
+{
+	color: rgba(46,29,155,1.00);
+	
+}
+.titul {
+  line-height: 0.5;
+  text-align: center;
+  color:rgba(46,29,155,1.00);
+  font-weight: bold;
+  margin-top:20px;
+	margin-bottom:20px;
+}
+.titul span {
+  display: inline-block;
+  position: relative;  
+}
+.titul span:before,
+.titul span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid rgba(46,29,155,0.3);
+  border-top: 1px solid rgba(46,29,155,0.3);
+  top: 0;
+  width: 180px;
+}
+.titul span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.titul span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.calcTIT
+	{
+		width: 100%;
+		height: auto;
+		background-color:rgba(114,114,114,0.1);
+		margin-left: 0px;
+		margin-top: 0px;
+		float:left;
+		color: rgba(46,29,155,1.00);
+		box-shadow: 0px 0px 2px 1px rgba(114,114,114,0.3);
+	}
+.calcTIT h2, .calcTIT h3 
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.inp
+{
+	width: 70px;
+	height: auto;
+	/*font-family:'Cookie',cursive;*/
+	font-size: 1.1em;
+	text-align: center;
+	background-color: white;
+	border: 2px solid rgba(114,114,114,0.1);
+	color: rgba(46,29,155,1.00);
+}
+.inp2
+{
+	width: 70px;
+	height: auto;
+	/*font-family:'Cookie',cursive;*/
+	font-size: 1.1em;
+	text-align: center;
+	background-color:rgba(235,228,144,1.00);
+	color: rgba(201,58,32,1.00);
+	font-weight: bold;
+	border: 2px solid rgba(114,114,114,0.1);
+}
+.but
+{
+	height: auto;
+	width: auto;
+	background-color:rgba(114,114,114,0.1);
+	color: rgba(46,29,155,1.00);
+	font-weight: bold;
+	padding: 10px;
+	border: none;
+	font-size: 1em;
+	box-shadow: 0px 0px 2px 1px rgba(114,114,114,0.3);
+}
+.but:hover
+{
+	background-color:rgba(48,42,82,1.00);
+	color: white;
+	box-shadow: 0px 0px 2px 1px rgba(114,114,114,0.3);
+}
+
+.tabla
+{
+	width: auto;
+	min-width: 200px;
+	border: none;
+	margin: auto;
+	align-content: center;
+	border-spacing: 2px 2px;
+}
+.tabla th
+{
+	border: solid 5px rgba(48,42,82,1.00);
+	background-color:rgba(48,42,82,1.00);
+	color: white;
+	
+}
+.tabla td
+{
+	border:none;
+	background-color:rgba(114,114,114,0.2);
+	color:rgba(48,42,82,1.00);
+	font-weight: bold;
+}
+.regla
+{
+	color:rgba(48,42,82,1.00);
+	font-weight: bold;
+	
+}
+.barCuadro
+{
+	width: 80%;
+	border: none;
+	min-height: 75px;
+	text-align: left;
+	height: auto;
+	margin:auto;
+	position: relative;
+}
+.barNumero0
+{
+	float: left;
+	margin-left: 0px;
+	width: auto;
+	color:rgba(48,42,82,1.00);
+	margin-top: 45px;
+	position: absolute;
+}
+.barNumero
+{
+	float: left;
+	margin: auto;
+	width: 95%;	
+	margin-top: 0px;
+	height: 15px;
+	position: absolute;
+}
+.barNumeroNumero /*Para que coincide con la barra*/
+{
+	float: left;
+	width: auto;
+	color:rgba(48,42,82,1.00);
+	margin-top: 0px;
+	height: 15px;
+	position: absolute;
+	transition: 0.8s linear;
+}
+.barNumeroTotal
+{
+	float: left;
+	margin-left: 92%;
+	width: auto;
+	color:rgba(48,42,82,1.00);
+	height: 25px;
+	margin-top: 45px;
+	position: absolute;
+}
+.barFuera
+{
+	width: 95%;
+	border: 1px solid rgba(48,42,82,1.00);
+	border-radius: 2px; 
+	height: 25px;
+	margin:auto;
+	margin-top: 17px;
+	position: absolute;
+	box-shadow: 0px 0px 1px 1px rgba(48,42,82,0.3);
+}
+.barDentro
+{
+	
+	border: none; 
+	float: left;
+	background-color: rgba(48,42,82,1.00);
+	height: 25px;
+	text-align: center;
+	align-content: center;
+	transition: 0.8s linear;
+	margin-left: 0px;
+	position: absolute;
+	box-shadow: 0px 0px 1px 1px rgba(48,42,82,0.3);
+	border-radius: 2px; 
+}
+.porcent
+{
+	margin: auto;
+	color:white;
+	font-weight: bold;
+	margin-top: 4px;
+}
+
+.pCalcu
+{
+	color: rgba(46,29,155,1.00);
+	text-align: center;
+	padding: 10px;
+}
+@media only screen and (min-width: 1170px)
+{
+	#container
+	{
+		width: 1150px;
+		
+		
+	}
+	.calculadora
+	{
+		
+		width: 550px;
+		height: 650px;
+		
+		float:left;
+		margin-left: 20px;
+		margin-top: 30px;
+		/*box-shadow: 1px 1px 20px #989898;*/
+	}
+	.calculadoraTEMAS
+	{
+		
+		width: 550px;
+		height: 300px;
+		
+		float:left;
+		margin-left: 20px;
+		margin-top: 30px;
+		/*box-shadow: 1px 1px 20px #989898;*/
+	}
+	.intro
+	{
+		
+		width: 1120px;
+		height: auto;
+		
+		float:left;
+		margin-left: 20px;
+		margin-top: 30px;
+		/*box-shadow: 1px 1px 20px #989898;*/
+	}
+	.introContent
+	{
+	
+		width:70%;
+	}
+	
+}
+@media only screen and (max-width: 1169px)
+{
+	#container
+	{
+		width: 100%;
+		
+	}
+	.calculadora, .intro
+	{
+		width: 98%;
+		height: auto;
+		
+		float:left;
+		margin-left: 1%;
+		margin-top: 1%;
+		/*box-shadow: 1px 1px 20px #989898;*/
+		
+	}
+	.calculadoraTEMAS
+	{
+		width: 98%;
+		height: auto;
+		
+		float:left;
+		margin-left: 1%;
+		margin-top: 1%;
+		/*box-shadow: 1px 1px 20px #989898;*/
+		
+	}
+	.intro
+	{
+		margin-top: 15px;
+	}
+	.titul span:before,
+	.titul span:after 
+	{
+	   width: 90px;
+	}
+	.introContent
+	{
+	
+		width:90%;
+	}
+	
+}
